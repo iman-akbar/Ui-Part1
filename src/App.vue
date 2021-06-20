@@ -463,7 +463,6 @@ export default {
    
  }
  .containerLets{
-   margin-top: 200px;
-   
+   margin-top: 200px;   
  }
 </style>
