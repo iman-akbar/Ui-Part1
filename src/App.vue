@@ -73,7 +73,11 @@
             src="./assets/bitmap.png"
             srcset="./assets/bitmap@2x.png 2x, ./assets/bitmap@3x.png 3x"
             class="Bitmap"
-          ></v-img>
+          >
+           <v-container class="containerLets" dense border rounded-xl style="background: white">
+     <p>Let`s go</p>
+    </v-container>
+          </v-img>
         </div>
         <!-- </v-card-title> -->
       </v-img>
@@ -456,6 +460,10 @@ export default {
 }
 .cardColor {
    background-color: rgba(0, 0, 0, 0.51);
+   
+ }
+ .containerLets{
+   margin-top: 200px;
    
  }
 </style>
